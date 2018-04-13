@@ -1,0 +1,6 @@
+name:  Text Trimmed toggle
+type: module
+description: Give the text field a toggle to show more or less
+core: 8.x
+dependencies:
+  - text

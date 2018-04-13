@@ -1,0 +1,24 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2017-2-11, 14:26:33
+    Author     : bluers
+*/
+#block-bnu-theme-page-title {
+    display: inline-block;
+}
+
+#block-bnu-theme-page-title h1 {
+    font-size: 24px;
+    color: #005329;
+    border-bottom: 2px solid #005329;
+}
+
+#block-bnu-theme-breadcrumbs {
+    display: inline-block;
+    float: right;
+    top: 32px;
+}

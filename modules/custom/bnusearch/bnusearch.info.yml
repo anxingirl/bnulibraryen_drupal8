@@ -1,0 +1,7 @@
+name: Bnu Search Block
+description: Add a search block to front page.
+type: module
+package: Custom
+dependencies:
+  - block
+core: 8.x

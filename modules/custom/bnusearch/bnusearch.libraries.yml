@@ -1,0 +1,10 @@
+ajaxhover:
+  #Add css file:
+  css:
+    component:
+      css/ajax_hover.css: {} 
+  #Add js file:
+  js:
+    js/ajax_hover.js: {}
+  dependencies:
+    - core/drupal.ajax

@@ -1,0 +1,48 @@
+.bnusearch_icon_link:before {
+    background-attachment: scroll;
+    background-color: transparent;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+ //   content: '';
+ //   display: block;
+    height: 100%;
+    left: 0.6667em;
+//    position: absolute;
+    top: 0;
+    width: 20px;
+}
+
+#block-bnu-theme-wechatblock {
+    position: fixed;
+    right: 0px;
+    top: 200px;
+    z-index: 9999;
+}
+
+#wechat_icon {
+    position: absolute;
+    top: 0;
+    max-width: 150px;
+    max-height: 145px;
+    margin-left: -167px;
+}
+
+#block-bnu-theme-wechatblock .content a{
+    display:inline-block;
+    width:50px;
+    height:50px;
+} 
+
+.bnusearch_wechat_link {
+    background-image: url(../images/wechat.png);
+    background-size: 50px 50px;
+}
+.bnusearch_weibo_link {
+    background-image: url(../images/weibo.png);
+    background-size: 50px 50px;
+}
+.bnusearch_phone_link {
+    background-image: url(../images/phone.png);
+    background-size: 50px 50px;
+}

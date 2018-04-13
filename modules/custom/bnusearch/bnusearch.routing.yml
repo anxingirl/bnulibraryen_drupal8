@@ -1,0 +1,49 @@
+bnusearch.wechatDelete:
+  path: 'bnusearch/{type}/{ajax}/mouseout'
+  defaults:
+    _controller: '\Drupal\bnusearch\Controller\WechatController::delete'
+    _title: 'wechat url'
+  requirements:
+    _permission: 'access content'
+bnusearch.wechatAdd:
+  path: 'bnusearch/wechat/{ajax}'
+  defaults:
+    _controller: '\Drupal\bnusearch\Controller\WechatController::wechat'
+    _title: 'wechat url'
+  requirements:
+    _permission: 'access content'
+bnusearch.weiboForm:
+  path: 'bnusearch/weibo/{ajax}'
+  defaults:
+    _controller: '\Drupal\bnusearch\Controller\WechatController::weibo'
+    _title: 'weibo url'
+  requirements:
+    _permission: 'access content'
+bnusearch.phoneForm:
+  path: 'bnusearch/phone/{ajax}'
+  defaults:
+    _controller: '\Drupal\bnusearch\Controller\WechatController::phone'
+    _title: 'phone url'
+  requirements:
+    _permission: 'access content'
+bnusearch.searchform:
+  path: 'bnusearch/searchform'
+  defaults:
+    _form:  '\Drupal\bnusearch\Form\SearchForm'
+    _title: 'Demo of Common Input Elements'
+  requirements:
+    _permission: 'access content'
+bnusearch.searchprimoform:
+  path: 'bnusearch/searchprimoform'
+  defaults:
+    _form:  '\Drupal\bnusearch\Form\SearchPrimoForm'
+    _title: 'Demo of Common Input Elements'
+  requirements:
+    _permission: 'access content'
+bnusearch.searchholdingform:
+  path: 'bnusearch/searchholdingform'
+  defaults:
+    _form:  '\Drupal\bnusearch\Form\SearchHoldingForm'
+    _title: 'Demo of Common Input Elements'
+  requirements:
+    _permission: 'access content'
